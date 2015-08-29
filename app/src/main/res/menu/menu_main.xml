@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/shuffle" android:title="shuffle"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sort" android:title="sort"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/search"
+        android:title="search"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+    <!--Search Widget-->
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="Search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:showAsAction="ifRoom|collapseActionView"
+
+        />
+</menu>
